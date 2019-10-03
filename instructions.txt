@@ -1,0 +1,10 @@
+Instructions: 
+	
+	* You can add a new course using "ADD COURSE" button.
+	
+	* You remove the course using trash button on the right of every course.
+	
+	* You can change name of course long pressing the name of the course.
+	
+	* You can calculate the GPA using "CALCULATE GPA" button.
+	

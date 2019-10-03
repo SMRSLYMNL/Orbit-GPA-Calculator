@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/whole">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addCourseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/linearLayout"
+        android:clickable="true"
+        android:drawableLeft="@drawable/plus_icon"
+        android:onClick="addCourse"
+        android:text="Add Course"></Button>
+
+    <Button
+        android:id="@+id/calculateGPAButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_toRightOf="@id/addCourseButton"
+        android:clickable="true"
+        android:drawableLeft="@drawable/calculate_icon"
+        android:onClick="calculate"
+        android:text="Calculate GPA"></Button>
+
+    <TextView
+        android:id="@+id/GPA"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/calculateGPAButton"
+        android:layout_centerHorizontal="true"
+        >
+    </TextView>
+
+
+></RelativeLayout>
